@@ -14,7 +14,7 @@ build:
   number: 0
   script:
     - python setup.py --with-libyaml build_ext --include-dirs="${PREFIX}/include" --library-dirs="${PREFIX}/lib"  # [unix]
-    - python setup.py --with-libyaml build_ext --include-dirs="%LIBRARY_INC% --library-dirs=%LIBRARY_LIB%         # [win]
+    - python setup.py --with-libyaml build_ext --include-dirs="%LIBRARY_INC%" --library-dirs="%LIBRARY_LIB%"      # [win]
     - python setup.py install
     - python setup.py test
 
