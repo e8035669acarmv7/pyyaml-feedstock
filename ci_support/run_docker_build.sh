@@ -16,6 +16,7 @@ channels:
  - conda-forge
  - defaults
 
+
 conda-build:
  root-dir: /feedstock_root/build_artefacts
 
@@ -43,7 +44,7 @@ conda clean --lock
 conda install --yes --quiet conda-forge-build-setup
 source run_conda_forge_build_setup
 
-# Embarking on 3 case(s).
+# Embarking on 4 case(s).
     set -x
     export CONDA_PY=27
     set +x
@@ -61,7 +62,9 @@ source run_conda_forge_build_setup
     set +x
     conda build /recipe_root --quiet || exit 1
     upload_or_check_non_existence /recipe_root conda-forge --channel=main || exit 1
+
 touch /feedstock_root/build_artefacts/conda-forge-build-done
+
 EOF
 
 # double-check that the build got to the end

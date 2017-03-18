@@ -36,12 +36,14 @@ before_install:
 install:
     # Install Miniconda.
     - |
+
       echo ""
       echo "Installing a fresh version of Miniconda."
       MINICONDA_URL="https://repo.continuum.io/miniconda"
       MINICONDA_FILE="Miniconda3-latest-MacOSX-x86_64.sh"
       curl -L -O "${MINICONDA_URL}/${MINICONDA_FILE}"
       bash $MINICONDA_FILE -b
+
 
     # Configure conda.
     - |
