@@ -1,13 +1,14 @@
+{% set name = "PyYAML" %}
 {% set version = "3.12" %}
 
 
 package:
-  name: pyyaml
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: PyYAML-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/P/PyYAML/PyYAML-{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab
 
 build:
@@ -34,8 +35,12 @@ test:
 
 about:
   home: http://pyyaml.org/wiki/PyYAML
+  license_file: LICENSE
   license: MIT
+  license_family: MIT
   summary: YAML parser and emitter for Python
+  dev_url: https://github.com/yaml/pyyaml
+  doc_url: http://pyyaml.org/wiki/PyYAML
 
 extra:
   recipe-maintainers:
