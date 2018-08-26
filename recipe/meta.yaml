@@ -1,20 +1,16 @@
-{% set name = "PyYAML" %}
 {% set version = "3.12" %}
-{% set sha256 = "592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab" %}
-{% set build = 1 %}
 
 
 package:
-  name: {{ name|lower }}
+  name: pyyaml
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/P/PyYAML/PyYAML-{{ version }}.tar.gz
+  sha256: 592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab
 
 build:
-  number: {{ build }}
+  number: 2
   script:
     - python setup.py --with-libyaml build_ext --include-dirs="${PREFIX}/include" --library-dirs="${PREFIX}/lib"  # [unix]
     - python setup.py --with-libyaml build_ext --include-dirs="%LIBRARY_INC%" --library-dirs="%LIBRARY_LIB%"      # [win]
@@ -23,9 +19,10 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - yaml
-
   run:
     - python
     - yaml
@@ -49,3 +46,4 @@ extra:
     - jakirkham
     - msarahan
     - pelson
+    - ocefpaf
