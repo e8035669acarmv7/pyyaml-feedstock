@@ -23,10 +23,10 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
+    - cython
     - yaml
   run:
     - python
-    - cython
     - yaml
 
 test:
