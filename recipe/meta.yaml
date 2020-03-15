@@ -32,7 +32,7 @@ requirements:
 test:
   imports:
     - yaml
-    - _yaml
+    - _yaml   # [python_impl == "cpython"]
 
 about:
   home: http://pyyaml.org/wiki/PyYAML
