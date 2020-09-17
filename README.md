@@ -5,7 +5,7 @@ Home: http://pyyaml.org/wiki/PyYAML
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: YAML parser and emitter for Python
 
@@ -29,157 +29,143 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_aarch64_python3.6.____73_pypypython_implpypy</td>
+              <td>linux_64_python3.6.____73_pypypython_implpypytarget_platformlinux-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.6.____73_pypypython_implpypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6.____73_pypypython_implpypytarget_platformlinux-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.6.____cpythonpython_implcpython</td>
+              <td>linux_64_python3.6.____cpythonpython_implcpythontarget_platformlinux-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.6.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6.____cpythonpython_implcpythontarget_platformlinux-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.7.____cpythonpython_implcpython</td>
+              <td>linux_64_python3.7.____cpythonpython_implcpythontarget_platformlinux-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.7.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpythonpython_implcpythontarget_platformlinux-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python3.8.____cpythonpython_implcpython</td>
+              <td>linux_64_python3.8.____cpythonpython_implcpythontarget_platformlinux-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpythonpython_implcpythontarget_platformlinux-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python3.6.____73_pypypython_implpypy</td>
+              <td>linux_aarch64_python3.6.____73_pypypython_implpypytarget_platformlinux-aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.6.____73_pypypython_implpypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.6.____73_pypypython_implpypytarget_platformlinux-aarch64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python3.6.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_python3.6.____cpythonpython_implcpythontarget_platformlinux-aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.6.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.6.____cpythonpython_implcpythontarget_platformlinux-aarch64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python3.7.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_python3.7.____cpythonpython_implcpythontarget_platformlinux-aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.7.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.7.____cpythonpython_implcpythontarget_platformlinux-aarch64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python3.8.____cpythonpython_implcpython</td>
+              <td>linux_aarch64_python3.8.____cpythonpython_implcpythontarget_platformlinux-aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python3.8.____cpythonpython_implcpythontarget_platformlinux-aarch64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python2.7.____cpythonpython_implcpython</td>
+              <td>linux_ppc64le_python3.6.____73_pypypython_implpypytarget_platformlinux-ppc64le</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.6.____73_pypypython_implpypytarget_platformlinux-ppc64le" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.6.____73_pypypython_implpypy</td>
+              <td>linux_ppc64le_python3.6.____cpythonpython_implcpythontarget_platformlinux-ppc64le</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____73_pypypython_implpypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.6.____cpythonpython_implcpythontarget_platformlinux-ppc64le" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.6.____cpythonpython_implcpython</td>
+              <td>linux_ppc64le_python3.7.____cpythonpython_implcpythontarget_platformlinux-ppc64le</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.7.____cpythonpython_implcpythontarget_platformlinux-ppc64le" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.7.____cpythonpython_implcpython</td>
+              <td>linux_ppc64le_python3.8.____cpythonpython_implcpythontarget_platformlinux-ppc64le</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python3.8.____cpythonpython_implcpythontarget_platformlinux-ppc64le" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.8.____cpythonpython_implcpython</td>
+              <td>osx_64_python3.6.____73_pypypython_implpypytarget_platformosx-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____73_pypypython_implpypytarget_platformosx-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python2.7.____cpythonpython_implcpython</td>
+              <td>osx_64_python3.6.____cpythonpython_implcpythontarget_platformosx-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____cpythonpython_implcpythontarget_platformosx-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____73_pypypython_implpypy</td>
+              <td>osx_64_python3.7.____cpythonpython_implcpythontarget_platformosx-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____73_pypypython_implpypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpythonpython_implcpythontarget_platformosx-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____cpythonpython_implcpython</td>
+              <td>osx_64_python3.8.____cpythonpython_implcpythontarget_platformosx-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonpython_implcpythontarget_platformosx-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.7.____cpythonpython_implcpython</td>
+              <td>osx_arm64_target_platformosx-arm64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_target_platformosx-arm64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.8.____cpythonpython_implcpython</td>
+              <td>win_64_python3.6.____cpythontarget_platformwin-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8.____cpythonpython_implcpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpythontarget_platformwin-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_c_compilervs2008python2.7.____cpython</td>
+              <td>win_64_python3.7.____cpythontarget_platformwin-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2008python2.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythontarget_platformwin-64" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_c_compilervs2015python3.6.____cpython</td>
+              <td>win_64_python3.8.____cpythontarget_platformwin-64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015python3.6.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_c_compilervs2015python3.7.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015python3.7.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_c_compilervs2015python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=938&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pyyaml-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythontarget_platformwin-64" alt="variant">
                 </a>
               </td>
             </tr>
