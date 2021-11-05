@@ -33,6 +33,7 @@ requirements:
     - python
     - cython
     - setuptools
+    - pip
     - yaml
   run:
     - python
