@@ -14,10 +14,13 @@ source:
 build:
   number: 2
   script:
-    - python setup.py --with-libyaml build_ext --include-dirs="${PREFIX}/include" --library-dirs="${PREFIX}/lib"  # [unix]
-    - python setup.py --with-libyaml build_ext --include-dirs="%LIBRARY_INC%" --library-dirs="%LIBRARY_LIB%"      # [win]
-    - python setup.py install
-    - python setup.py test
+    - >- {{ PYTHON }} -m pip install --no-deps --ignore-installed .
+                                     --global-option="--with-libyaml"
+                                     --global-option="build_ext"
+                                     --global-option="-I${PREFIX}/include"  # [unix]
+                                     --global-option="-L${PREFIX}/lib"      # [unix]
+                                     --global-option="-I%LIBRARY_INC%"      # [win]
+                                     --global-option="-L%LIBRARY_LIB%"      # [win]
 
 requirements:
   build:
