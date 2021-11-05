@@ -14,12 +14,14 @@ source:
 build:
   number: 2
   script:
-    {{ set EXTRA_FLAGS = '--global-option="-I%LIBRARY_INC%" --global-option="-L%LIBRARY_LIB%"' if win '--global-option="-I${PREFIX}/include" --global-option="-L${PREFIX}/lib"'}}
     - >-
       {{ PYTHON }} -m pip install --no-deps --ignore-installed .
                                   --global-option="--with-libyaml"
                                   --global-option="build_ext"
-                                  {{ EXTRA_FLAGS }}
+                                  --global-option="-I${PREFIX}/include"  # [unix]
+                                  --global-option="-L${PREFIX}/lib"      # [unix]
+                                  --global-option="-I%LIBRARY_INC%"      # [win]
+                                  --global-option="-L%LIBRARY_LIB%"      # [win]
 
 requirements:
   build:
