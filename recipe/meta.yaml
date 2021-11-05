@@ -13,7 +13,6 @@ source:
 
 build:
   number: 2
-  skip: True  # [py36]
   script:
     - python setup.py --with-libyaml build_ext --include-dirs="${PREFIX}/include" --library-dirs="${PREFIX}/lib"  # [unix]
     - python setup.py --with-libyaml build_ext --include-dirs="%LIBRARY_INC%" --library-dirs="%LIBRARY_LIB%"      # [win]
